@@ -16,8 +16,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/tab-dash.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/tabs.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers.js" />
     </list>
     <ignored path="ionicApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -415,7 +413,7 @@
       <updated>1466166572502</updated>
       <workItem from="1466166574999" duration="2162000" />
       <workItem from="1466178691739" duration="1985000" />
-      <workItem from="1466235392818" duration="20497000" />
+      <workItem from="1466235392818" duration="20577000" />
     </task>
     <task id="LOCAL-00001" summary="Making Master">
       <created>1466255779755</created>
@@ -424,11 +422,18 @@
       <option name="project" value="LOCAL" />
       <updated>1466255779756</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Making Master">
+      <created>1466267552286</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1466267552286</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24644000" />
+    <option name="totallyTimeSpent" value="24724000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -484,6 +489,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Making Master" />
     <option name="LAST_COMMIT_MESSAGE" value="Making Master" />
   </component>
