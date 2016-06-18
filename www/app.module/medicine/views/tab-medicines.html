@@ -1,0 +1,16 @@
+<ion-view view-title="Medicines">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="medicine in medicines" type="item-text-wrap" href="#/tab/medicines/{{medicine.id}}">
+        <img ng-src="{{medicine.image}}">
+        <h2>{{medicine.name}}</h2>
+        <p>{{medicine.description}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+        <ion-option-button class="button-assertive" ng-click="remove(chat)">
+          Delete
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
