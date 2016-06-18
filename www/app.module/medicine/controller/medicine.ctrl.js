@@ -10,7 +10,7 @@ angular.module('medical.controllers', [])
     //
     //$scope.$on('$ionicView.enter', function(e) {
     // });
-alert("sd");
+
     $scope.medicines = medicineService.all();
     $scope.remove = function(chat) {
       medicineService.remove(chat);

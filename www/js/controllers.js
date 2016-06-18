@@ -12,8 +12,8 @@ angular.module('medical.controllers', [])
   // });
 
   $scope.medicines = medicineService.all();
-  $scope.remove = function(chat) {
-    medicineService.remove(chat);
+  $scope.remove = function(medicine) {
+    medicineService.remove(medicine);
   };
 })
 
