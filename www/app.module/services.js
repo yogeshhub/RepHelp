@@ -35,8 +35,8 @@ angular.module('medical.services', [])
     all: function() {
       return medicine;
     },
-    remove: function(chat) {
-      medicine.splice(chats.indexOf(chat), 1);
+    remove: function(medicineRemove) {
+      medicine.splice(medicine.indexOf(medicineRemove), 1);
     },
     get: function(chatId) {
       for (var i = 0; i < medicine.length; i++) {
