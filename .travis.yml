@@ -1,4 +1,7 @@
 language: ruby
+env:
+- DB=postgres
+- SH=bash
 rvm:
  - 2.2
  - jruby
