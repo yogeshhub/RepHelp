@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'medical.services' is found in services.js
 // 'medical.controllers' is found in controllers.js
-angular.module('medical', ['ionic', 'medical.controllers', 'medical.services'])
+angular.module('medical', ['onezone-datepicker'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {

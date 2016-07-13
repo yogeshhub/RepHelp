@@ -10,5 +10,12 @@
     <p>
       For help medical related, join the <a href="https://www.healthline.com" target="_blank">Health Line</a> We also have other services available.
     </p>
+    <div class="col-20">
+    <onezone-datepicker datepicker-object="onezoneDatepicker">
+      <button class="button button-block button-outline button-positive show-onezone-datepicker">
+        {{onezoneDatepicker.date | date:'dd MMMM yyyy'}}
+      </button>
+    </onezone-datepicker>
+    </div>
   </ion-content>
 </ion-view>

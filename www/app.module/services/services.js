@@ -1,4 +1,4 @@
-angular.module('medical.services', [])
+angular.module('medical')
 
 .factory('medicineService', function() {
   // Might use a resource here that returns a JSON array

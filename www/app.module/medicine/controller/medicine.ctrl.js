@@ -1,8 +1,8 @@
 /**
  * Created by root on 18/6/16.
  */
-angular.module('medical.controllers', [])
-  .controller('medicineCtrl', function($scope, medicineService) {
+angular.module('medical')
+.controller('medicineCtrl', function($scope, medicineService) {
     // With the new view caching in Ionic, Controllers are only called
     // when they are recreated or on app start, instead of every page change.
     // To listen for when this page is active (for example, to refresh data),
