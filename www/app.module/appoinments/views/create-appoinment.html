@@ -1,0 +1,27 @@
+<ion-view view-title="Create Appoinments">
+  <ion-content class="padding">
+      <div class="list">
+         <label class="item item-input item-floating-label">
+           <span class="input-label"t>Doctor Name</span>
+           <input type="text" ng-model="newOne.doctorName" placeholder="doctor name">
+         </label>
+         <label class="item item-input item-floating-label">
+           <span class="input-label">Address</span>
+           <input type="text" ng-model="newOne.address" placeholder="address">
+         </label>
+         <label class="item item-input item-icon-right">            
+            <input type="text" placeholder="Date" ng-model="appointmentCtrl.date" ng-click="appointmentCtrl.openDatePicker()">
+            <i class="icon ion-calendar placeholder-icon"></i>
+          </label>
+          <label class="item item-input item-icon-right">            
+            <input type="text" placeholder="Time" ng-model="appointmentCtrl.time" ng-click="appointmentCtrl.openTimePicker()">
+            <i class="icon ion-ios-time-outline placeholder-icon"></i>
+          </label>
+          <label class="item item-input item-floating-label">
+            <span class="input-label">Note</span>
+            <input type="text" ng-model="newOne.notes" placeholder="Note">
+          </label>         
+      </div>      
+      <button class="button button-full button-assertive" ng-click="appointmentCtrl.create(newOne)">Create</button>      
+  </ion-content>
+</ion-view>

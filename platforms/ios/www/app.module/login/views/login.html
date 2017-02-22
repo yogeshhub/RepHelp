@@ -1,0 +1,33 @@
+<ion-view class="login" style="">     
+  <ion-content padding="true">
+    <div class="row fixed-bottom" style="">
+        <div style="text-align: center">
+          <h3>My App</h3>
+          <a class="button icon-right ion-chevron-right button-calm" ng-click="login.allow()">Lets Go</a>
+        </div>
+    </div>
+  </ion-content>
+</ion-view>
+
+<style type="text/css">
+	.login:before{
+		background-image: url(img/background.jpg);
+		content: ' ';
+	    display: block;
+	    left: 0;
+	    top: 0;
+	    width: 100%;
+	    height: 100%;
+	    z-index: 1;
+	    opacity: 0.6;
+	    background-repeat: no-repeat;
+	    -ms-background-size: cover;
+	    -o-background-size: cover;
+	    -moz-background-size: cover;
+	    -webkit-background-size: cover;
+	    background-size: cover;
+	}
+	.fixed-bottom {
+		position: absolute; bottom: 50px;
+	}
+</style>

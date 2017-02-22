@@ -14,32 +14,98 @@
 
     <!-- ionic/angularjs js -->
     <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="lib/ionic/js/ionic-datepicker.bundle.min.js"></script>
+    <script src="lib/ionic/js/ionic-timepicker.bundle.min.js"></script>
 
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
 
+    <!-- <script src="lib/onezone-datepicker/dist/onezone-datepicker.min.js"></script> -->
+
     <!-- your app's js -->
     <script src="app.js"></script>
-    <script src="js/controllers.js"></script>
-    <!--<script src="app.module/account/controller/account.ctrl.js"></script>
-    <script src="app.module/dashboard/controller/dash.ctrl.js"></script>
+
+    <script src="app.module/login/controller/login.ctrl.js"></script>
+    <script src="app.module/appoinments/controllers/create-appoinment.ctrl.js"></script>
+    <script src="app.module/appoinments/controllers/view-appoinment.ctrl.js"></script>
+    <script src="app.module/appoinments/controllers/edit-appoinment.ctrl.js"></script>
+    <script src="app.module/account/controller/account.ctrl.js"></script>
     <script src="app.module/medicine/controller/medicine-detail.ctrl.js"></script>
-    <script src="app.module/medicine/controller/medicine.ctrl.js"></script>-->
-    <script src="app.module/services.js"></script>
+    <script src="app.module/dashboard/controller/dash.ctrl.js"></script>
+    <script src="app.module/medicine/controller/medicine.ctrl.js"></script>
+    <script src="app.module/medicine/controller/medicine-detail.ctrl.js"></script>
+
+    <!-- Services -->
+    <script src="app.module/services/services.js"></script>
+    <script src="app.module/appoinments/services/appoinment.service.js"></script>
   </head>
   <body ng-app="medical" class="platform-android platform-cordova platform-webview">
-    <!--
-      The nav bar that will be updated as we navigate between views.
-    -->
-    <ion-nav-bar class="bar-stable">
-      <ion-nav-back-button>
-      </ion-nav-back-button>
-    </ion-nav-bar>
-    <!--
-      The views will be rendered in the <ion-nav-view> directive below
-      Templates are in the /templates folder (but you could also
-      have templates inline in this html file if you'd like).
-    -->
+  <!-- <script id="login.html" type="text/ng-template">
+      <ion-view hide-nav-bar="true" title="Sign-In">
+        <ion-content>
+          <div class="list">
+            <label class="item item-input">
+              <span class="input-label">Username</span>
+              <input type="text" ng-model="user.username">
+            </label>
+            <label class="item item-input">
+              <span class="input-label">Password</span>
+              <input type="password" ng-model="user.password">
+            </label>
+          </div>
+          <div class="padding">
+            <button nav-clear class="button button-block button-positive" ng-click="LogIn(user)">
+              Sign-In
+            </button>
+         
+          </div>
+        </ion-content>
+      </ion-view>
+    </script> -->
     <ion-nav-view></ion-nav-view>
+    <!-- <ion-side-menus>
+      <ion-side-menu-content>
+        <ion-nav-bar class="bar-royal nav-title-slide-ios7">
+          <ion-nav-buttons side="left">              
+              <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+            </ion-nav-buttons>          
+          <ion-nav-back-button></ion-nav-back-button>
+        </ion-nav-bar>
+        <ion-nav-view></ion-nav-view>
+      </ion-side-menu-content>
+
+      <ion-side-menu side="left">
+        <header class="bar bar-header bar-balanced">
+          <h1 class="title">Menu</h1>
+        </header>
+        <ion-content class="has-header">
+          <div class="list">
+
+            <a class="item item-icon-left" href="#">
+              <i class="icon ion-refresh"></i>
+              Check status
+            </a>
+
+            <a class="item item-icon-left" href="#">
+              <i class="icon ion-heart"></i>
+              Pick an appoinment
+            </a>
+
+            <a class="item item-icon-left" href="#">
+              <i class="icon ion-mic-a"></i>
+              Doctor's List
+            </a>
+
+            <a class="item item-icon-left" href="#">
+              <i class="icon ion-person-stalker"></i>
+              Friends
+              <span class="badge badge-assertive">0</span>
+            </a>
+
+          </div>
+        </ion-content>
+      </ion-side-menu>
+    </ion-side-menus> -->
+
   </body>
 </html>

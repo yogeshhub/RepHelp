@@ -1,0 +1,33 @@
+<ion-view view-title="View Appoinments">
+  <ion-content class="padding">
+      <ion-list>
+        <ion-item ng-repeat="item in viewAppoinment.List" href="#" type="card" class="item-remove-animate">       
+          <span class="col col-50" align="left">{{ item.doctorName }}</span>
+          <span class="col col-50" align="left">{{ item.address }}</span>
+          <span class="col col-50" align="right">{{ item.date }}</span>
+          <span class="col col-50" align="right">{{ item.time }}</span>                 
+          <ion-option-button class="button-assertive" ng-click="edit(item)">Delete</ion-option-button>          
+        </ion-item>
+      </ion-list>
+  </ion-content>
+	<!--<div class="card" ng-repeat="item in viewAppoinment.List">
+		 <div class="item item-divider">
+    		{{item.doctorName}}
+  		</div>
+  		<div class="row">
+  			<div class="col">
+				<div class="item item-text-wrap">
+					{{item.address}}
+				</div>
+			</div>
+			<div class="col">
+				<div class="item item-text-wrap">
+					{{item.date | date }}
+				</div>
+				<div class="item item-text-wrap">
+					{{item.time}}
+				</div>
+			</div>
+		</div> 
+	</div>-->       
+</ion-view>
