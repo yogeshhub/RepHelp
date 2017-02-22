@@ -17,8 +17,8 @@ This document helps developer team member (DTMs) to run the frontend of the appl
 - Cordova `npm install -g cordova` (permission may apply, try `sudo install -g cordova`)
 
 ## Setup
-1. `git clone https://github.com/yogeshhub/IonicMedicalApp.git`
-2. `cd IonicMedicalApp`
+1. `git clone https://github.com/yogeshhub/RepHelp.git`
+2. `cd RepHelp`
 3. Launch `ionic serve` from within IonicMedicalApp in a separate terminal tab and leave it running to serve client static assets
 
 ### Tools
@@ -26,7 +26,7 @@ This document helps developer team member (DTMs) to run the frontend of the appl
 - [SCSS](http://sass-lang.com)
 
 ### Library
-- [NodeJS](http://nodejs.org) (only the webserver example part)
-- [AngularJS](http://docs.angularjs.org/tutorial)
+- ionic [Hybrid Mobile App Framework]
+- CordovaSQLlite [Database]
 
 There might be better tutorial/getting started provided unofficially, which, in case encountered, should be noted back into this document.
