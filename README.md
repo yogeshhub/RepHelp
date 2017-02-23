@@ -19,14 +19,15 @@ This document helps developer team member (DTMs) to run the frontend of the appl
 ## Setup
 1. `git clone https://github.com/yogeshhub/RepHelp.git`
 2. `cd RepHelp`
-3. Launch `ionic serve` from within IonicMedicalApp in a separate terminal tab and leave it running to serve client static assets
+3. Launch `ionic serve` from within RepHelp in a separate terminal tab and leave it running to serve client static assets
 
 ### Tools
 - [Git](http://git-scm.com/book/en/Getting-Started)
 - [SCSS](http://sass-lang.com)
 
 ### Library
-- ionic [Hybrid Mobile App Framework]
-- CordovaSQLlite [Database]
+- [ionic](http://ionicframework.com) 
+- [Cordova](https://cordova.apache.org/)
+- [SQLlite](https://www.sqlite.org)
 
 There might be better tutorial/getting started provided unofficially, which, in case encountered, should be noted back into this document.
